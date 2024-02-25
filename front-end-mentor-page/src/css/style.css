@@ -21,40 +21,43 @@ body{
     max-width: 100%;
 }
 
-.logo{
+.logo img{
     margin-bottom:50px;
-    width: 160px;
+    width: 150px;
 }
 
 .informations .title{
-    font-family: "Popins", sans-serif;
     font-weight: 600;
     font-size: 4rem;
 }
 
 .informations{
     display: flex;
-    align-items: center;
-    gap: 40px;
+    /* align-items: center; */
+    gap: 50px;
+}
+
+.info{
+    padding: 50px 0px;
 }
 
 .info .title{
     color: #fff;
     font-size: 2.5rem;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
 
 .info p{
-    line-height: 1.3rem;
-    font-size: 0.97rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
     color: #fff;
     opacity: 0.9;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 
 .info .btn{
-    width: 150px;
-    height: 40px;
+    width: 160px;
+    height: 50px;
     border-radius: 50px;
     border: none;
     font-size: 1.2rem;
@@ -64,7 +67,7 @@ body{
 
 .btn:hover{
     cursor: pointer;
-    background-color: var(--secunday-color);
+    background-color: var(--secundary-color);
     color: #fff;
 }
 
@@ -76,14 +79,20 @@ body{
 
 .redes a{
     border-radius: 50%;
-    border: 2px solid white;
+    border: 2px solid;
     color: #fff;
     display: inline-flex;
     align-items: center;
-    margin-left: 20px;
+    margin: 5px;
     height: 50px;
     width: 50px;
     justify-content: center;
 }
 
+
+
+.redes li a:hover{
+    cursor: pointer;
+    color: var(--secundary-color);
+}
 

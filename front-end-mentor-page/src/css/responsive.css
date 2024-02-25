@@ -1,0 +1,51 @@
+@media(max-width: 375px){
+
+    body{
+        background-image: url(../images/bg-mobile.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .container{
+        display: flex;
+        padding: 40px;
+        flex-direction: column;
+    }
+
+    .logo img{
+        width: 160px;
+    }
+
+    .informations{
+        flex-direction: column;
+    }
+
+    .image-mockups img{
+        width: 300px;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info .title{
+        font-family: "Popins", sans-serif;
+        font-size: 1.5rem;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .info p{
+        text-align: center;
+        font-size: 0.9rem;
+    }
+    
+
+    .redes{
+        padding: 80px 0px 0px 0px;
+        justify-content: center;
+    }
+} 

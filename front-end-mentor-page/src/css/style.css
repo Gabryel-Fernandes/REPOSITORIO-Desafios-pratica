@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+html{
+    font-size:62,5%;
+}
+
+body{
+    background-image: url(../images/bg-desktop.svg);
+    background-size: cover;
+    background-color: var(--background-color);
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 1200px;
+    max-width: 100%;
+}
+
+.logo{
+    margin-bottom:50px;
+    width: 160px;
+}
+
+.informations .title{
+    font-family: "Popins", sans-serif;
+    font-weight: 600;
+    font-size: 4rem;
+}
+
+.informations{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.info .title{
+    color: #fff;
+    font-size: 2.5rem;
+    padding-bottom: 40px;
+}
+
+.info p{
+    line-height: 1.3rem;
+    font-size: 0.97rem;
+    color: #fff;
+    opacity: 0.9;
+    padding-bottom: 40px;
+}
+
+.info .btn{
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    font-size: 1.2rem;
+    color: var(--background-color);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: var(--secunday-color);
+    color: #fff;
+}
+
+.redes{
+    display: flex;
+    justify-content: flex-end;
+    color: #fff;
+}
+
+.redes a{
+    border-radius: 50%;
+    border: 2px solid white;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 20px;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+}
+
+
